@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD0399231ABFC0D40061A6B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0399221ABFC0D40061A6B7 /* main.m */; };
+		DD0399261ABFC0D40061A6B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0399251ABFC0D40061A6B7 /* AppDelegate.m */; };
+		DD0399291ABFC0D40061A6B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0399281ABFC0D40061A6B7 /* ViewController.m */; };
+		DD03992C1ABFC0D40061A6B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD03992A1ABFC0D40061A6B7 /* Main.storyboard */; };
+		DD03992E1ABFC0D50061A6B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD03992D1ABFC0D50061A6B7 /* Images.xcassets */; };
+		DD0399311ABFC0D50061A6B7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD03992F1ABFC0D50061A6B7 /* LaunchScreen.xib */; };
+		DD03993D1ABFC0D50061A6B7 /* WaypointTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD03993C1ABFC0D50061A6B7 /* WaypointTests.m */; };
+		DD0399481ABFCB460061A6B7 /* Waypoint.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0399471ABFCB460061A6B7 /* Waypoint.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD0399371ABFC0D50061A6B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD0399151ABFC0D40061A6B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD03991C1ABFC0D40061A6B7;
+			remoteInfo = Waypoint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD03991D1ABFC0D40061A6B7 /* Waypoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Waypoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD0399211ABFC0D40061A6B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD0399221ABFC0D40061A6B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD0399241ABFC0D40061A6B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD0399251ABFC0D40061A6B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD0399271ABFC0D40061A6B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD0399281ABFC0D40061A6B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD03992B1ABFC0D40061A6B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD03992D1ABFC0D50061A6B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DD0399301ABFC0D50061A6B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DD0399361ABFC0D50061A6B7 /* WaypointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaypointTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD03993B1ABFC0D50061A6B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD03993C1ABFC0D50061A6B7 /* WaypointTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaypointTests.m; sourceTree = "<group>"; };
+		DD0399461ABFCB460061A6B7 /* Waypoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Waypoint.h; sourceTree = "<group>"; };
+		DD0399471ABFCB460061A6B7 /* Waypoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Waypoint.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD03991A1ABFC0D40061A6B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0399331ABFC0D50061A6B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD0399141ABFC0D40061A6B7 = {
+			isa = PBXGroup;
+			children = (
+				DD03991F1ABFC0D40061A6B7 /* Waypoint */,
+				DD0399391ABFC0D50061A6B7 /* WaypointTests */,
+				DD03991E1ABFC0D40061A6B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD03991E1ABFC0D40061A6B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD03991D1ABFC0D40061A6B7 /* Waypoint.app */,
+				DD0399361ABFC0D50061A6B7 /* WaypointTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD03991F1ABFC0D40061A6B7 /* Waypoint */ = {
+			isa = PBXGroup;
+			children = (
+				DD0399241ABFC0D40061A6B7 /* AppDelegate.h */,
+				DD0399251ABFC0D40061A6B7 /* AppDelegate.m */,
+				DD0399271ABFC0D40061A6B7 /* ViewController.h */,
+				DD0399281ABFC0D40061A6B7 /* ViewController.m */,
+				DD03992A1ABFC0D40061A6B7 /* Main.storyboard */,
+				DD03992D1ABFC0D50061A6B7 /* Images.xcassets */,
+				DD03992F1ABFC0D50061A6B7 /* LaunchScreen.xib */,
+				DD0399201ABFC0D40061A6B7 /* Supporting Files */,
+				DD0399461ABFCB460061A6B7 /* Waypoint.h */,
+				DD0399471ABFCB460061A6B7 /* Waypoint.m */,
+			);
+			path = Waypoint;
+			sourceTree = "<group>";
+		};
+		DD0399201ABFC0D40061A6B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD0399211ABFC0D40061A6B7 /* Info.plist */,
+				DD0399221ABFC0D40061A6B7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD0399391ABFC0D50061A6B7 /* WaypointTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD03993C1ABFC0D50061A6B7 /* WaypointTests.m */,
+				DD03993A1ABFC0D50061A6B7 /* Supporting Files */,
+			);
+			path = WaypointTests;
+			sourceTree = "<group>";
+		};
+		DD03993A1ABFC0D50061A6B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD03993B1ABFC0D50061A6B7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD03991C1ABFC0D40061A6B7 /* Waypoint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD0399401ABFC0D50061A6B7 /* Build configuration list for PBXNativeTarget "Waypoint" */;
+			buildPhases = (
+				DD0399191ABFC0D40061A6B7 /* Sources */,
+				DD03991A1ABFC0D40061A6B7 /* Frameworks */,
+				DD03991B1ABFC0D40061A6B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Waypoint;
+			productName = Waypoint;
+			productReference = DD03991D1ABFC0D40061A6B7 /* Waypoint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD0399351ABFC0D50061A6B7 /* WaypointTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD0399431ABFC0D50061A6B7 /* Build configuration list for PBXNativeTarget "WaypointTests" */;
+			buildPhases = (
+				DD0399321ABFC0D50061A6B7 /* Sources */,
+				DD0399331ABFC0D50061A6B7 /* Frameworks */,
+				DD0399341ABFC0D50061A6B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD0399381ABFC0D50061A6B7 /* PBXTargetDependency */,
+			);
+			name = WaypointTests;
+			productName = WaypointTests;
+			productReference = DD0399361ABFC0D50061A6B7 /* WaypointTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD0399151ABFC0D40061A6B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Aneesh Shastry";
+				TargetAttributes = {
+					DD03991C1ABFC0D40061A6B7 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					DD0399351ABFC0D50061A6B7 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = DD03991C1ABFC0D40061A6B7;
+					};
+				};
+			};
+			buildConfigurationList = DD0399181ABFC0D40061A6B7 /* Build configuration list for PBXProject "Waypoint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD0399141ABFC0D40061A6B7;
+			productRefGroup = DD03991E1ABFC0D40061A6B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD03991C1ABFC0D40061A6B7 /* Waypoint */,
+				DD0399351ABFC0D50061A6B7 /* WaypointTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD03991B1ABFC0D40061A6B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD03992C1ABFC0D40061A6B7 /* Main.storyboard in Resources */,
+				DD0399311ABFC0D50061A6B7 /* LaunchScreen.xib in Resources */,
+				DD03992E1ABFC0D50061A6B7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0399341ABFC0D50061A6B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD0399191ABFC0D40061A6B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0399481ABFCB460061A6B7 /* Waypoint.m in Sources */,
+				DD0399291ABFC0D40061A6B7 /* ViewController.m in Sources */,
+				DD0399261ABFC0D40061A6B7 /* AppDelegate.m in Sources */,
+				DD0399231ABFC0D40061A6B7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0399321ABFC0D50061A6B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD03993D1ABFC0D50061A6B7 /* WaypointTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD0399381ABFC0D50061A6B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD03991C1ABFC0D40061A6B7 /* Waypoint */;
+			targetProxy = DD0399371ABFC0D50061A6B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD03992A1ABFC0D40061A6B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD03992B1ABFC0D40061A6B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD03992F1ABFC0D50061A6B7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD0399301ABFC0D50061A6B7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD03993E1ABFC0D50061A6B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD03993F1ABFC0D50061A6B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD0399411ABFC0D50061A6B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Waypoint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD0399421ABFC0D50061A6B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Waypoint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD0399441ABFC0D50061A6B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WaypointTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Waypoint.app/Waypoint";
+			};
+			name = Debug;
+		};
+		DD0399451ABFC0D50061A6B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WaypointTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Waypoint.app/Waypoint";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD0399181ABFC0D40061A6B7 /* Build configuration list for PBXProject "Waypoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD03993E1ABFC0D50061A6B7 /* Debug */,
+				DD03993F1ABFC0D50061A6B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD0399401ABFC0D50061A6B7 /* Build configuration list for PBXNativeTarget "Waypoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0399411ABFC0D50061A6B7 /* Debug */,
+				DD0399421ABFC0D50061A6B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD0399431ABFC0D50061A6B7 /* Build configuration list for PBXNativeTarget "WaypointTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0399441ABFC0D50061A6B7 /* Debug */,
+				DD0399451ABFC0D50061A6B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD0399151ABFC0D40061A6B7 /* Project object */;
+}
